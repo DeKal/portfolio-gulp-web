@@ -2,7 +2,8 @@
   "name": "se-general-template",
   "description": "General project template based on Grunt/Gulp task runners",
   "scripts": {
-    "start": "gulp rebuild & gulp server"
+    "build": "npm install & gulp rebuild",
+    "start": "gulp server"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.0",

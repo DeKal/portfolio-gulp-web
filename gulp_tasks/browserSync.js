@@ -6,7 +6,8 @@ var gulp = require('gulp'),
 // Static server
 gulp.task('browserSync:server', function browserSyncSever() {
 	browserSync({
-		server: paths.build.main
+		server: paths.build.main,
+		port: process.env.PORT || 5000
 	});
 });
 

@@ -5,7 +5,7 @@
 		"titleDelim": " | ",
 		"description": "Dekal 's Portfolio",
 		"keywords": "portfolio, dekal, software engineer, freelancer",
-		"url": "https://github.com/DeKal/"
+		"url": "https://dekal-portfolio.herokuapp.com/"
 	},
 	"modules": {
 		"googleFonts": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&subset=latin,cyrillic",

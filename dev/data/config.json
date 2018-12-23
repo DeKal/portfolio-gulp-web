@@ -3,7 +3,7 @@
 		"lang": "en",
 		"title": "Portfolio",
 		"titleDelim": " | ",
-		"description": "Dekal Portfolio",
+		"description": "Dekal 's Portfolio",
 		"keywords": "portfolio, dekal, software engineer, freelancer",
 		"url": "https://github.com/DeKal/"
 	},
@@ -14,7 +14,7 @@
 		"customCss": true,
 		"noscriptCss": false,
 		"twitterCard": false,
-		"openGraph": false,
+		"openGraph": true,
 		"googleAPIKey" : ""
 	},
 	"links": {

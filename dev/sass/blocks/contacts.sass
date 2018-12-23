@@ -10,10 +10,13 @@
 	position: absolute
 	top: -200px
 	z-index: 50
+	margin-left: calc((100% - calc(75% - 40px))/2)
 	box-shadow: 2px 2px 4px -2px $color-dark
-	+gs-column(9)
+	width: calc(75% - 40px)
+    
 	@media screen and (max-width: 800px)
-		+gs-column(12)
+		width: calc(100% - 20px)
+		margin-left: 10px
 		float: none
 
 	&__header
@@ -21,6 +24,7 @@
 		background-color: $color-accent
 		& h2, & h4
 			color: $color-light
+
 // Contact infomation wrap that contain vcard info, social menu and additional info
 .contact-info
 	position: relative

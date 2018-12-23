@@ -6,11 +6,17 @@ var gulp = require('gulp'),
 // Static server
 gulp.task('browserSync:server', function browserSyncSever() {
 	browserSync({
-		server: paths.build.main,
+		startPath: "/",
+		open: false,
+		server: {
+			baseDir :paths.build.main
+		},
 		port: process.env.PORT || 5000
 	});
+
 });
 
 gulp.task('browserSync:reload', function browserSyncSeverReload() {
 	return browserSync.reload();
 });
+

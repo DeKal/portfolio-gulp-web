@@ -30,4 +30,5 @@ mixin head-src()
 		script(src="static/js/head.min.js")
 
 	//- Google maps api js disabled by default because of empty API key
-	//- script(src="https://maps.googleapis.com/maps/api/js")
+	if config.modules.googleAPIKey
+	script(src="https://maps.googleapis.com/maps/api/js?key=" + config.modules.googleAPIKey)

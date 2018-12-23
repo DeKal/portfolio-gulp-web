@@ -14,7 +14,8 @@
 		"customCss": true,
 		"noscriptCss": false,
 		"twitterCard": false,
-		"openGraph": false
+		"openGraph": false,
+		"googleAPIKey" : ""
 	},
 	"links": {
 		"twitterCardCreator": "===twittercard-creator-account===",

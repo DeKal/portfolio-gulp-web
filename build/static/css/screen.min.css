@@ -308,6 +308,18 @@ a:hover {
 	content: "\e802";
 }
 
+.icon_prize:before {
+	content: "P";
+}
+
+.icon_cert:before {
+	content: "C";
+}
+
+.icon_workexp:before {
+	content: "\e804";
+}
+
 .icon_research:before {
 	content: "\e80b";
 }
@@ -829,6 +841,11 @@ a:hover {
 	margin-left: 80px;
 }
 
+.services__item p b {
+	font-size: 15px;
+	font-weight: bold;
+}
+
 .services__item:before {
 	margin-top: 30px;
 	float: left;
@@ -1162,6 +1179,7 @@ a:hover {
 	height: 0;
 	padding-bottom: 18.75%;
 	overflow: hidden;
+	background: black;
 }
 
 .projects__item img {
@@ -1170,8 +1188,9 @@ a:hover {
 	right: 0;
 	left: 0;
 	display: block;
-	width: 100%;
-	margin: 0;
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
 }
 
 .projects__item figcaption {

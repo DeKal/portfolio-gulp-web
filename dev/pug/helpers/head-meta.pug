@@ -11,10 +11,10 @@ mixin head-meta()
 	//- Opengraph
 	if config.modules.openGraph
 		meta(property="og:type", content="website")
-		meta(property="og:title", content= pageTitle ? pageTitle + config.site.titleDelim + config.site.title : config.site.title)
-		meta(property="og:description", content= pageDescription ? pageDescription : config.site.description)
-		meta(property="og:image", content= config.site.url + "/static/images/card.jpg")
-		meta(property="og:url", content= pageUrl ? pageUrl : config.site.url)
+		meta(property="og:title", content=config.site.titleDelim + config.site.title)
+		meta(property="og:description", content= config.site.description)
+		meta(property="og:image", content=config.site.url + "/static/images/card.jpg")
+		meta(property="og:url", content=config.site.url)
 
 	//- TwitterCard
 	if config.modules.twitterCard

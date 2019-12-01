@@ -1,3 +1,6 @@
+#### NOTE
+### Require Node 11 or lower to run, node 12 will not work with gulp 3
+
 #### Editorconfig
 This project have .editorconfig file at the root that used by your code editor with editorconfig plugin. It describes codestyle like indent style, trailing whitespaces etc. See more details [here](http://editorconfig.org/)
 
